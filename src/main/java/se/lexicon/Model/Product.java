@@ -5,24 +5,8 @@ public abstract class Product {
     private int id;
     private double price;
     private String productName;
-    private Candy_List candyList;
-    private Currency currency;
-
-    public Candy_List getCandyList() {
-        return candyList;
-    }
-
-    public void setCandyList(Candy_List candyList) {
-        this.candyList = candyList;
-    }
-
-    public Currency getCurrency() {
-        return currency;
-    }
-
-    public void setCurrency(Currency currency) {
-        this.currency = currency;
-    }
+        private Candy_List candyList;
+        private Currency currency;
 
     //Constructors
     public Product(int id, double price, String productName,Candy_List candyList,Currency currency) {
@@ -62,6 +46,20 @@ public abstract class Product {
         this.productName = productName;
     }
 
+    public Candy_List getCandyList() {
+        return candyList;
+    }
 
+    public void setCandyList(Candy_List candyList) {
+        this.candyList = candyList;
+    }
+
+    public Currency getCurrency() {
+        return currency;
+    }
+
+    public void setCurrency(Currency currency) {
+        this.currency = currency;
+    }
 }
 
