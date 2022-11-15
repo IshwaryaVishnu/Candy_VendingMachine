@@ -1,5 +1,6 @@
 package se.lexicon;
 
+import se.lexicon.data.VendingMachine;
 import se.lexicon.model.*;
 
 public class App

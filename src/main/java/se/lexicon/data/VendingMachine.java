@@ -1,4 +1,6 @@
-package se.lexicon.model;
+package se.lexicon.data;
+
+import se.lexicon.model.Product;
 
 public class VendingMachine implements IVendingMachine {
     public static final int[] VALID_DENOMINATIONS = {1, 2, 5, 10, 20, 50, 100, 200, 500, 1000};

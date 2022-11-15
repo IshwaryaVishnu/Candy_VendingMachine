@@ -1,4 +1,6 @@
-package se.lexicon.model;
+package se.lexicon.data;
+
+import se.lexicon.model.Product;
 
 public interface IVendingMachine {
         void addCurrency(int amount);
